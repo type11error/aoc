@@ -16,7 +16,7 @@ func diff(a,b int) int {
 }
 
 func main() {
-  f, err := os.Open("./input.txt")
+  f, err := os.Open("./reports.txt")
   if err != nil {
     panic(err)
   }
